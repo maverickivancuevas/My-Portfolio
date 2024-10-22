@@ -1,2 +1,2 @@
 # My-Portfolio
-Maverick Ivan C. Cuevas Web Development|BSCS-3B
+Maverick Ivan C. Cuevas Web Development | BSCS-3B
