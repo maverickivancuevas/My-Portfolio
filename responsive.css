@@ -1,0 +1,120 @@
+@media (max-width: 1024px) { 
+    #menu-icon {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        color: var(--main-color);
+    }
+
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        border-bottom-left-radius: 2rem;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: var(--text-color);
+    }
+
+    .navbar.active { 
+        display: block;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+        gap: 5rem;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-img img {
+        width: 52vw;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about h2 {
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    .about-img {
+        order: -1;
+        width: 52vw;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    #menu-icon {
+        font-size: 2rem;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .home-img img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .about-img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .home-content, .about {
+        padding: 1rem;
+    }
+
+    .contact-form {
+        padding: 1rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .favorite-quote, .favorite-place, .favorite-video {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .favorite-quote img, .favorite-place img, .favorite-video img {
+        width: 80vw;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .favorite-quote h2, .favorite-place h2, .favorite-video h2 {
+        font-size: 1.5rem;
+    }
+}
