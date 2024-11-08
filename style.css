@@ -198,6 +198,8 @@ section {
   }  
     
   .about-img img {  
+    width: 100%;
+    height: auto;
     width: 32vw;  
     border-radius: 50%;  
     box-shadow: 0 0 25px var(--main-color);  
@@ -566,4 +568,14 @@ body {
                 0 0 25px rgba(255, 0, 0, 0.9),
                 0 0 40px rgba(255, 0, 0, 1);
 }
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
 
+body {
+    padding-top: 80px; 
+}
